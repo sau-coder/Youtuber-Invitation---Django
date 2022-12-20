@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('' , include('webpages.urls')),
     path('youtubers/' , include('youtubers.urls')),
+    path('hiretubers/' , include('hiretubers.urls')),
     path('accounts/' , include('user_accout.urls')),
     path('socialaccounts/', include('allauth.urls')),
 
